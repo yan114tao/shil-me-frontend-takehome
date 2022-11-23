@@ -1,0 +1,23 @@
+.page-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #e2e2e2;
+    width: 300px;
+    padding: 1.5rem;
+    height: 100vh;
+  }
+
+  .content-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    padding: 1.5rem;
+    width: calc(100% - 300px);
+  }
+}
